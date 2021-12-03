@@ -1,6 +1,6 @@
 .card{
   background-color: hsl(216, 50%, 16%);
-  width: 350px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   border-radius:10px;
@@ -22,6 +22,9 @@
 .card .title:hover{
   color:hsl(178, 100%, 50%);
   cursor:pointer;
+}
+.card p{
+  margin-bottom: 10px;
 }
 .card .imagem{
   border-radius: 10px; 

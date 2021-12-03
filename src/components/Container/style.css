@@ -13,7 +13,7 @@ body {
   height: 93vh;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 35px;
 }
 

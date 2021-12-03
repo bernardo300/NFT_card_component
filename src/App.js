@@ -1,4 +1,4 @@
-import {Container, Card, Footer} from 'src/components';
+import {Container, Card} from 'src/components';
 import avatar from 'src/img/image-avatar.png';
 function App() {
   const data = {
@@ -12,7 +12,6 @@ function App() {
       <Card 
       {...data}
       />
-      <Footer author={data.author} />
     </Container>
     
   );
