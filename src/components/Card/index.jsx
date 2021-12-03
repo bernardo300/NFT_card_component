@@ -28,12 +28,12 @@ const Card = (props)=>{
        
         <div className="info">
           <div className="item">
-            <img src={ethereum}/>
+            <img src={ethereum} alt="Ethereum"/>
             <p className="color_cyan">{'0.041 ETH'}</p>
           </div>
 
           <div className="item">
-            <img src={clock}/>
+            <img src={clock} alt="Clock"/>
             <p>{'3 days left'}</p>
           </div>
         </div>
