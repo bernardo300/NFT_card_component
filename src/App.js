@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Container, Card, Footer} from 'src/components';
+import avatar from 'src/img/image-avatar.png';
 function App() {
+  const data = {
+    title:'Equilibrium #3429',
+    frase: 'Our Equilibrium collection promotes balance and calm.',
+    author: 'Bernardo Lopes',
+    avatar: avatar,
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Card 
+      {...data}
+      />
+      <Footer author={data.author} />
+    </Container>
+    
   );
 }
 
